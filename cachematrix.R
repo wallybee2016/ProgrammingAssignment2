@@ -4,7 +4,10 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  CachedInv<- NULL   ## initializing the inverse
+  ##if the inverse is set already, dispose of it and set x in 
+  ##the parent environment
+ 
 }
 
 
